@@ -104,6 +104,9 @@
 
 /* md <= Large (lg) */
 @media (max-width : 992px) {
+	.home_wrap_layers_alt img{
+		position: relative;
+	}
 	.info_widget_grid .info_widget + * {
 		padding-left: 0;
 		margin-left: 0;
@@ -308,8 +311,11 @@
 	.layer1_alt{
 		min-width: 110%;
 	}
-	.home_wrap_layers img.layer1{
+	.home_wrap_layers. img.layer1{
 		position: relative;
+	}
+	.home_wrap_layers.home_wrap_absolute img.layer1{
+		position: absolute;
 	}
 	section.promo{
 		margin-top: 48px;

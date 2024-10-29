@@ -21,7 +21,7 @@
 
 	<script src="libs/jquery/jquery-3.6.0.min.js" defer></script>
 	<script src="libs/fancybox/fancybox.umd.js" defer></script>
-	<script src="js/common.js" defer></script>pt>
+	<script src="js/common.js" defer></script>
 
 </head>
 
@@ -40,6 +40,10 @@
 					<rect width="26" height="20" fill="white" />
 				</clipPath>
 			</defs>
+		</svg>
+		<svg width="33" height="40" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" style="display: none;">
+			<path d="M6.34314 17.6567L17.6568 6.34303" stroke="#081E2C" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+			<path d="M17.6569 17.6567L6.34315 6.34303" stroke="#081E2C" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
 		</svg>
 	</button>
 	<header>
@@ -134,16 +138,16 @@
 					<div class="row justify-content-center">
 						<div class="col-11">
 							<div class="home_wrap d-flex justify-content-center align-content-center">
-								<div class="home_wrap_layers d-flex justify-content-center">
+								<div class="home_wrap_layers home_wrap_absolute d-flex justify-content-center fade-in">
 									<img src="images/vkus.png" class="layer1 d-none d-lg-block" alt="">
-									<img src="images/first_bg_mobile.png" class="layer1 d-block d-lg-none" alt="">
+									<img src="images/first_bg_mobile.png" style="" class="scroll-image layer1 d-block d-lg-none" alt="">
 									<img src="images/slivki.png" class="layer2 d-none" alt="">
 									<img src="images/slivki2.png" class="layer5 d-lg-none d-none" alt="">
-									<img src="images/maslo.png" class="layer3 d-none d-lg-block" alt="">
-									<img src="images/hleb.png" class="layer4 d-none d-lg-block" alt="">
+									<img src="images/maslo.png" class="scroll-image layer3 d-none d-lg-block" alt="">
+									<img src="images/hleb.png" class="scroll-image layer4 d-none d-lg-block" alt="">
 								</div>
 								
-								<div class="home_wrap_text">
+								<div class="home_wrap_text fade-in-after">
 									
 									<div class="one">100%</div>
 									<div class="four">Натуральные сливки</div>
@@ -166,8 +170,8 @@
 					<div class="row justify-content-center pt-5 pt-lg-0">
 						<div class="col-11">
 							<div class="section_bg first_section d-flex flex-column flex-lg-row">
-								<div class="section_img">
-									<img src="images/1st.png" alt="" loading="lazy">
+								<div class="section_img scroll-image">
+									<img src="images/1st.png" class="fade-in-block" alt="" loading="lazy">
 									<div class="after_layer d-lg-block d-none"></div>
 								</div>
 								<div class="section_bg_widget pt-4">
@@ -180,8 +184,8 @@
 					<div class="row justify-content-center position-relative">
 						<div class="col-11">
 							<div class="section_bg second_section d-flex align-items-center flex-column flex-lg-row">
-								<div class="section_img mt-5 mt-lg-0">
-									<img src="images/2st.png" alt="" loading="lazy">
+								<div class="section_img mt-5 mt-lg-0 fade-in-block scroll-image">
+									<img src="images/2st.png" class="" alt="" loading="lazy">
 								</div>
 								<div class="section_bg_widget">
 									<div class="one mb-4">Я помогала ей</div>
@@ -193,8 +197,8 @@
 					<div class="row justify-content-center">
 						<div class="col-12">
 							<div class="section_bg third_section d-flex flex-column flex-lg-row align-items-lg-end align-items-center">
-								<div class="section_img">
-									<img src="images/3st.png" alt="" loading="lazy">
+								<div class="section_img fade-in-block scroll-image">
+									<img src="images/3st.png" class="" alt="" loading="lazy">
 								</div>
 								<div class="section_bg_widget pt-5 pt-lg-4 pb-0 mb-lg-5 mb-0 pb-lg-5">
 									<div class="one mb-5 accent_text">Любимый, <br>родной вкус, <br>знакомый <br>с детства</div>
@@ -210,7 +214,7 @@
 			<div class="container">
 				<div class="row d-flex justify-content-center">
 					<div class="col-12">
-						<div class="promo_block d-flex justify-content-center">
+						<div class="promo_block d-flex justify-content-center fade-in-block">
 							<img src="images/promo.svg" alt="">
 							
 						</div>
